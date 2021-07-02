@@ -1,0 +1,56 @@
+html,body
+{
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    
+    overflow-x: hidden; 
+    scroll-behavior: smooth;
+}
+.quote{
+    font-size: 25px;
+}
+.container{
+    max-width: 1500px
+}
+.txt{
+    color: white;
+}
+.brd-card{
+    border: solid;
+border-color: rgb(148, 17, 17);
+}
+/* Make sure that padding behaves as expected */
+* {box-sizing:border-box}
+
+/* Container for skill bars */
+.container {
+  width: 100%; /* Full width */
+ 
+}
+
+.skills {
+  text-align: right; /* Right-align text */
+  padding-top: 10px; /* Add top padding */
+  padding-bottom: 10px; /* Add bottom padding */
+  color: white; /* White text color */
+}
+
+.html {width: 90%; background-color: rgb(151, 28, 28);} /* Green */
+.css {width: 80%; background-color: rgb(109, 41, 41)} /* Blue */
+.js {width: 65%; background-color: rgb(136, 77, 77)} /* Red */
+.php {width: 60%; background-color: rgb(119, 75, 75)} /* Dark Grey */
+.logo{
+    color: #fff;
+    
+     
+    
+}
+.ss{
+    font-size: 20px;
+}
+  
+ 
+  
+  
